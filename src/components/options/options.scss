@@ -1,0 +1,54 @@
+.options{
+    height: 58px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    
+    ul{
+      list-style: none;
+        display: flex;
+        margin: auto;
+        padding: 0;
+        position: absolute;
+        top: 8px;
+        left: 8px;
+
+
+    }
+    li{
+      text-align: center;
+     padding: 5px;
+        margin-right: 20px;
+        cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+      color: #656575;
+    
+
+    }
+    li.posts{
+        
+        height: 42px;
+        width: 77px;
+    }
+    li.job{
+        height: 42px;
+        width: 70px;
+    }
+    li.employee{
+        height: 42px;
+        width: 116px;
+    }
+    li.about{
+        height: 42px;
+        width: 79px;
+    }
+   ul li.active{
+       background-color: #F5F0FA;
+       color: #51267B;
+       font-weight: 700;
+       
+   }
+    
+    
+}

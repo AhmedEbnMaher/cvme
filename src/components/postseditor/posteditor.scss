@@ -1,0 +1,37 @@
+.editor{
+    height: 104px;
+    position: relative;
+    .editor-search{
+    position: absolute;
+    display: flex;
+    left: 16px;
+    top: 16px;
+    right: 16px;
+    padding: 0;
+
+    .post-input{
+    border: 2px solid #E2E2EA;
+    width: 100%;
+    margin-left: 12px;
+    border-radius: 5px;
+    outline: none;
+    }
+   
+    }
+    .file-img{
+        position: absolute;
+        left: 67px;
+        bottom: 16px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #51267B;
+        display: flex;
+        cursor: pointer;
+    }
+    .file-img span{
+        color:#262631 ;
+        font-size: 12px;
+        
+    }
+    
+}

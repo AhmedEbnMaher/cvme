@@ -1,0 +1,53 @@
+.left-section{
+    padding: 5px;
+    position: relative;
+.left-section-title{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #262631;
+    position: absolute;
+    font-style: normal;
+    top: 24px;
+    left: 16px;
+}
+ul{
+    list-style-type: none;
+    position: absolute;
+    top: 78px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    left: 8px;
+    right: 8px;
+   
+}
+li{
+    height: 42px;
+    width: 93%;
+    padding: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+}
+.list-icon{
+ background-color: #F2F3F7;
+ text-align: center;
+ height: 32px; 
+ width: 32px;
+ border-radius: 5px;
+ color: #656575;
+}
+.active{
+    color: #51267B;
+    font-weight: 600;
+    background-color: #F5F0FA;
+    border-radius: 5px;
+    
+}
+.active p{
+    background-color: #ffffff;
+    color: #51267B;
+}
+}

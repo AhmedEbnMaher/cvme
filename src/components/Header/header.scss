@@ -1,0 +1,122 @@
+.header-content{
+    background-color:#FFFFFF ;
+    height: 60px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 100;
+    .mini-container{
+        height: 60px;
+    }
+    .logo{
+     height: 36px;
+     margin-top: auto;
+     margin-bottom: auto;
+    }
+    .app-search{
+        background-color: #F2F3F7;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 16px;
+        padding :8px 20px 8px 16px;
+        border-radius: 5px;
+        height: 36px;
+        width: 230px;
+        color: #9A9AAF;
+        .search-icon{
+            margin-top: -4px;
+            margin-right: 9.75px;
+        }
+    
+    }
+    .my-input{
+        background-color:#F2F3F7;
+        border: none;
+        outline: none;
+        
+    }
+    .main-menu{
+        height: 36px;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        height: 36px;
+        margin-left: 123px;
+        padding: 0;
+    }
+    li{
+        height: 36px;
+        margin-right: 8px;
+        padding-top: 5px;
+        text-align: center;
+        cursor: pointer;
+        color: #656575;
+      
+    }
+    ul .active{
+        background-color: #F5F0FA;
+        color: #51267B;
+        font-weight: 600;
+        font-size: 14px;
+        padding :8px, 16px, 8px, 16px;
+        border-radius: 5px;
+    }
+    li .list-element {
+        font-size: 14px;
+        
+    }
+    li.list1{
+        width: 96px;
+    }
+
+    li.list2{
+        width: 113px;
+    }
+    li.list3{
+        width: 88px;
+    }
+    li.list4{
+        width: 93px;
+    }
+    .notifications{
+        background-color: #F2F3F7;
+        cursor: pointer;
+        color: #07070C;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 123px;
+        height: 36px;
+        width: 36px !important;
+        border-radius: 5px;
+    }
+    .notifications .notification-icon{
+        text-align: center;
+        margin-top: 5px;
+        font-weight: 600;
+    }
+    .profile{
+        background-color: #F2F3F7;
+        color: #07070C;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 36px;
+        width: 64px;
+        margin-left: 8px;
+        margin-right: 0;
+        border-radius: 5px;
+        padding: 4px;
+        display: flex;
+    }
+    .profile .icon-drop{
+        font-size: 14px;
+        color: #07070C;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,85 @@
+.timline-content{
+    margin-top: 8px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    height: auto;
+    .post-top-part{
+
+        padding: 0;
+        display: flex;
+        margin: 16px;
+  
+    }
+    .post-main-content{
+     
+        margin-bottom: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        padding: 0;
+        margin-bottom: 16px;
+        .post-content{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+        }
+    }
+    .likes-comments{
+        margin: 16px;
+        color: #656575;
+        .likes{
+            margin-right: 42px;
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 14px;
+        }
+        .comments{
+            font-size: 11px;
+            font-weight: 400;
+            line-height: 14px;  
+        }
+    }
+    .post-bottom-part{
+        display: flex;
+        padding:  16px 40px 0 40px;
+        margin: 16px;
+        border-top: 2px solid #F2F3F7;
+        justify-content: space-between;
+        .social-icons{
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+            margin-left: 10.5px;
+            color: #656575;
+        }
+       
+    }
+    .top{
+        line-height: 11px;
+    .page-name{
+        font-size: 14px;
+        font-weight: 600;
+        color: #262631;
+        margin-left: 8px;
+    
+    }
+    .post-publisher{
+        color: #656575;
+        font-size: 11px;
+         font-weight: 400;
+         line-height: 14px;
+        margin-left: 8px;
+      
+    }
+}
+.time{
+    color: #9A9AAF;
+        font-size: 11px;
+         font-weight: 400;
+         line-height: 14px;
+        
+         margin-top: 25px;
+        
+
+}
+}
